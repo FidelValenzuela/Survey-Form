@@ -1,0 +1,72 @@
+/*styles.css for the Survey Form Certification Project*/
+html{
+
+font-family: 'Poppins';
+align-items: center;
+font-size: 18px;
+color: white;
+font-weight: normal;
+background-image:
+url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+font-family: 'Poppins', sans-serif;
+}
+
+button {
+    background-color: #37af65;
+    color: white;
+   min-width: 500px;
+    max-width: 700px;
+    height: 50px;
+    border: none;
+}
+
+form{
+    max-width: 500px;
+    background-color: rgba(27, 27, 50, 0.8);
+    color: white;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+label {
+margin-bottom: 10px;
+display: block;
+}
+
+textarea {
+    width: 490px;
+    height: 100px;
+}
+
+/* To make font-size larger for placeholders*/
+input::placeholder, select, textarea {
+    font-size: 1rem;
+}
+
+
+/* Apply flex properties to the .container div */
+.container {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh; /* Ensure the container covers the viewport height */
+}
+
+#title, #description {
+    text-align: center;
+}
+
+
+
+.checkbox-container label {
+    display: block;
+    margin-bottom: 5px; /* Adjust the margin as needed */
+}
+
+
+
