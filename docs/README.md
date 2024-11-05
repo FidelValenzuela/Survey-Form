@@ -72,9 +72,3 @@ Contributions to improve this project are welcome! To contribute:
 
 This project is open-source and licensed under the [MIT License](LICENSE).
 
----
-
-### Screenshots
-
-![Survey Form Screenshot](screenshot.png)
-
